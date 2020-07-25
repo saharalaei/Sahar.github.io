@@ -9,8 +9,8 @@
     </head>
    
     <body>
-        <nav class="navbar navbar-fixed-top"> 
-            <div class="container"> 
+        <nav class="navbar navbar-fixed-top">
+            <div class="container">
                 <div class = "color_tab">
                     <a class="navbar-brand" href="index.html">Latitude</a>
                 </div>
@@ -44,80 +44,61 @@
                     </ul>
             </div>
         </nav>
-       
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class = "box box-left">
-                        <section class ="summary">
-                            <h1> <strong>Summary: Latitude vs. X </h1> 
-                            <hr>
-                            <a target="_blank" href="assets/images/Fig1.png">
-                                <img id="T-max" src="assets/images/Fig1.png" alt="Latitude of cities"  class="center" style="float:left";>
-                            </a>  
 
-                            <p id="1"> 
-                                The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-                                To accomplish this analysis, we first pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities.
-                            </p>
-                            <p id = "2">
-                                After assembling the dataset, we used Matplotlib to plot various aspects of teh weather vs. latitude. Factors are looked at included:
-                                temperature, cloudiness, wind speed, and humidity. The site provides the source data and visualization created as part of the analysis, as well as explanations and descriptions of any trends and correlation witnessed.
-                            </p>
-                        </section>                       
-                    </div>   
-                </div>
-        
-                <div class="col-md-4">
-                    <div class = "box box-right">
-                        <section class ="visualization">
-                            <h1> <strong>Visualizations</strong></h1> 
+
+        <div class="container">
+            <div class="row row-centered">
+                <div class="col-md-8 col-centered">
+                    <div class = "box box-comparison">
+                        <section class ="comparison">
+                            <h1> <strong>Comparison: Latitude vs X</h1> 
                             <hr>
+                            <p> Click any graph to get an in-depth analysis </p>
                             <div class="row">
-                                <div class="col-xs-3 col-sm-3 col-md-6">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h2> vs. Max Temperature</h2>
                                     <a target="_blank" href="assets/images/Fig1.png">
-                                        <img id="T-max"  src="assets/images/Fig1.png" alt="Maximum Temperature">
+                                        <img id="T-max"  src="assets/images/Fig1.png" alt="Max Temperature">
                                     </a> 
                                 </div> 
-                                <div class="col-xs-3 col-sm-3 col-md-6">
+                                <div class="ol-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h2> vs. Humidity</h2>
                                     <a target="_blank" href="assets/images/Fig2.png">
-                                        <img id="humidity"  src="assets/images/Fig2.png" alt="Humidity">
+                                        <img id="humidity"src="assets/images/Fig2.png" alt="Humidity">
                                     </a> 
                                 </div>
-                                <div class="col-xs-3 col-sm-3 col-md-6">
+                                <div class="ol-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h2> vs. Cloudiness</h2>
                                     <a target="_blank" href="assets/images/Fig3.png">
-                                        <img id="cloudiness"  src="assets/images/Fig3.png" alt="Cloudiness">
+                                        <img id="cloudiness" src="assets/images/Fig3.png" alt="Cloudiness">
                                     </a>
                                 </div>
-                                <div class="col-xs-3 col-sm-3 col-md-6">
+                                <div class="ol-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h2> vs. Wind Speed</h2> 
                                     <a target="_blank" href="assets/images/Fig4.png">
                                         <img id="wind_speed"  src="assets/images/Fig4.png" alt="Wind Speed">
                                     </a> 
                                 </div> 
-                            </div>
                         </section>                       
+                    </div>   
                 </div>
-         
-                
-                <div class="navbar-xs navbar-fixed-bottom ">
-                    <p> @copyright Coding Bootcamp 2020</p>
-                </div>
-                <div class="navbar-xxs navbar-fixed-bottom ">
-                </div>
-               
-        
+            </div>    
 
 
 
+
+        <div class="navbar-xs navbar-fixed-bottom ">
+            <p> @copyright Coding Bootcamp 2020</p>
+        </div>
+        <div class="navbar-xxs navbar-fixed-bottom ">
+        </div>
         <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous">
             </script>
-
-        
           
 
-            
+
     </body>
 </html>
